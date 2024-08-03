@@ -1,0 +1,172 @@
+Wipro
+--------
+
+CI/ CD process.. 
+How do you deployment?
+Which server ? Tomcat only
+How to communication happens between Services
+Brief explanation about Object oriented programming language***
+Oops concepts***
+How many types of inheritance?
+How can we do multiple inheritance with Interfaces?**
+Difference b/w String, StringBuffer, StringBuilder ? ***
+What is dynamic dispatch?
+How are you handling exceptions in your project?
+How to make custom exceptions?
+What collections are you aware of?
+Internal hashmap working?
+How to fetch the hashcode of an object?
+What is singleton?
+How to implement a Singleton class ? ****
+What annotations are used in your application?
+What is @SpringBootApplication contain?
+How can we exclude specific auto configuration from Spring Boot?
+What is the main purpose of finally block?
+Even if I write return statement in try block still finally block gets executed
+Java 8 features? ***
+What is a functional interface ?? ***
+What is the marker interface? And what is the use of the same? ***
+What are different kinds of functional interfaces?
+What is a lambda expression??? *** ... It's an Anonymous function!!! It's not a class
+
+What is the stream API ?
+Map of Integer and String ... Map contains
+
+What is the difference b/w put & post?
+What is the use of the path method ?
+
+What is serialisation?
+What is a transient Keyword ??
+Spring Security ?
+
+Real use case of NullPointerException and OutofmemoryException
+
+OneToMany relationship: how can we write in Entity class ??
+
+What is the diff b/w Service and Component?***
+What is diff b/w Component & Repository?
+What is dependency injection?
+
+-----
+
+Java 8 features
+Why the functional interface introduced in Java 8
+Why stream operations introduced in Java 8
+
+With Java 8 ...
+
+We cannot access child own methods with parent reference apart from overridden methods
+
+Output is 2 bcz of no equals and hashcode method implemented in Customer class
+
+It will treat as different objects
+
+How to make Map thread safe?
+Collections.syncronizedMap()
+
+How to make Java an immutable class ?
+
+Spring bean lifecycle?
+
+How can we handle exceptions in Spring and SpringBoot? ***
+
+How can we implement Spring Security?
+Have you worked on Microservices??
+
+What is the difference between put and patch ..??
+
+
+With the help of sort and comparing adjacent elements
+
+What is SQL injection? *****
+
+----
+
+Why we need to learn spring boot.
+What is the use of starters and what are all different starters you have used
+Security
+What is main annotation in spring boot
+What it contains and purpose of 3 annotations
+What is the use of spring boot starter web
+Have you used actuator
+How to exclude tomcat
+What is the default port and how can we change it
+How to create Rest API in spring boot
+What are all rest API methods
+What are the purpose of rest API methods
+Difference between get and put
+What is meant by idempotent
+Diff between Request mapping and getmapping **
+
+Have you ever done a rest API from scratch !!!
+
+What are the main dependencies while developing REST API in spring boot
+
+Http web client?
+How to connect other API in spring boot?
+RestTemplate pseudo code?
+
+How to test API? Mockito -? What is the dependency to work with Mockito?
+
+What is your learning approach?
+
+What is the reason to switch companies?
+
+How do you work with fresher's and how did you groom freshers?
+
+JWT token?
+
+What are different types of memories?
+And what is the use of those?
+
+What is a copy constructor?
+
+String S1 = "Hello";
+String S2 = new String ("Hello");
+
+How to make a singleton?
+
+Need to understand is docker?
+
+class loader custom class loader and its uses of it.
+different types and uses of it.
+
+thread safe using the collection.
+
+
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+
+STream API:
+====
+Student sorting student by above 85
+grouping students by ranges
+efg stdents -b teacher fetch the teacher name and its students in similar way.
+Asending and descending m=by stdents name.
+parallel streams.
+
+arrays to list
+list to arrays methods.
+What is serialisation? deserisalisation
+What is a transient Keyword ??
+Deamon thread.. how the clean happern how it works.
+
+== === strings concept
+
+===
+
+
+
+
+@ControllerAdvice public class GlobalExceptionHandler { @ExceptionHandler(IllegalArgumentException.class) @ResponseStatus(HttpStatus.BAD_REQUEST) public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex) { return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST); } }
+
+===
+
+Relation of @SpringbootwebApplication or springbootapplication with spring.
+
+DIfference in main method in spring boot and spring.
+
+===
+Have you used actuator
+What is meant by idempotent
+
+Diff between Request mapping and getmapping **
