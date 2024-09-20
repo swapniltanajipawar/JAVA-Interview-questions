@@ -143,6 +143,17 @@ grouping students by ranges
 efg stdents -b teacher fetch the teacher name and its students in similar way.
 Asending and descending m=by stdents name.
 parallel streams.
+Write prog using the stream api student with 10 name and marks and name starts with later a or need a name with the string name length of 5, filter map sort findfirst and findany parallel stream stream exeception handling in stream.
+How we convert list to map
+Or vice varsa 
+Sorting using stream marks.
+
+ Tomap of collector or collector to list
+Parking method
+String
+Sorting using stream marks.
+2. Use of flatmap with example
+Use of flatmap and map
 
 arrays to list
 list to arrays methods.
